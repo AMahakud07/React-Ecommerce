@@ -1,14 +1,38 @@
-.nav-list{
+.nav-list {
     display: flex;
     gap: 4rem;
     align-items: center;
     list-style-type: none;
 }
-.navbar-link{
+
+.navbar-link {
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
     text-decoration: none;
-    
+    color: black;
+
 }
 
+.cart-trolley--link {
+    position: relative;
+}
+
+.cart-trolley {
+    position: relative;
+    font-size: 2.2rem;
+}
+
+.cart-total--item {
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    background-color: rgb(226, 17, 17);
+    color: #000;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    top: 20%;
+    left: 86%;
+    /* background-color:; */
+  }

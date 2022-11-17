@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "./Nav.css"
+import {CgShoppingCart} from "react-icons/cg"
 const Nav = () => {
   return (
     <div>
@@ -19,7 +20,15 @@ const Nav = () => {
             </li>
             <li>
                 <NavLink to='/cart' className="navbar-link">
-
+                <CgShoppingCart className='cart-trolley'/>
+                <span className="cart-total--item"> 10 </span>
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to='/cart' className="navbar-link">
+                <button>
+                    Login
+                </button>
                 </NavLink>
             </li>
         </ul>
