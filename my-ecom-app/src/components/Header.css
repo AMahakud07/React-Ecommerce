@@ -1,0 +1,13 @@
+img {
+    height: 5rem;
+}
+
+.header-div {
+    padding: 0 4.8rem;
+    height: 7rem;
+    background-color: rgb(249, 218, 223);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
