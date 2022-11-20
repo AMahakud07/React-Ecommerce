@@ -2,10 +2,13 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "./Nav.css"
 import {CgShoppingCart} from "react-icons/cg"
+
+
 const Nav = () => {
+
   return (
     <div>
-        <ul className='nav-list'>
+        <ul className='navbar-lists'>
             <li>
                 <NavLink to='/' className="navbar-link">Home</NavLink>
             </li>
@@ -27,7 +30,7 @@ const Nav = () => {
             <li>
                 <NavLink to='/cart' className="navbar-link">
                 <button>
-                    Login
+                    Login/Signup
                 </button>
                 </NavLink>
             </li>

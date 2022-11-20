@@ -1,4 +1,4 @@
-.nav-list {
+.navbar-lists {
     display: flex;
     gap: 4rem;
     align-items: center;
@@ -36,3 +36,6 @@
     left: 86%;
     /* background-color:; */
   }
+
+
+  
